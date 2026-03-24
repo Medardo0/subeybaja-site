@@ -3,25 +3,36 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Déménagement Bruxelles | Sube y Baja SRL</title>
+
+    <title>Déménagement Bruxelles | Sube y Baja SRL - Devis Gratuit</title>
     <meta
       name="description"
-      content="Déménagement Bruxelles et Belgique. National, international, lift, transport express, emballage. Devis gratuit."
+      content="Entreprise de déménagement à Bruxelles. Déménagement national et international, lift service, transport express et emballage. Devis gratuit."
     />
+    <meta
+      name="keywords"
+      content="déménagement Bruxelles, déménageur Bruxelles, entreprise de déménagement Bruxelles, transport meubles Bruxelles, lift service Bruxelles"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.subeybaja-bruxelles.be/" />
 
     <link rel="shortcut icon" href="assets/logo.jpg" type="image/x-icon" />
 
-    <!-- OG -->
+    <!-- Open Graph -->
     <meta
       property="og:title"
-      content="Déménagement Bruxelles | Sube y Baja SRL"
+      content="Déménagement Bruxelles | Sube y Baja SRL - Devis Gratuit"
     />
     <meta
       property="og:description"
-      content="National & international, lift services, moving, transport express, emballage. Devis gratuit."
+      content="Entreprise de déménagement à Bruxelles. Service rapide, professionnel et devis gratuit."
     />
     <meta property="og:type" content="website" />
-    <meta name="robots" content="index, follow">
+    <meta property="og:url" content="https://www.subeybaja-bruxelles.be/" />
+    <meta
+      property="og:image"
+      content="https://www.subeybaja-bruxelles.be/assets/logo_classic.png"
+    />
 
     <!-- Icons -->
     <link
@@ -30,17 +41,35 @@
     />
 
     <link rel="stylesheet" href="style.css" />
-
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Schema local business -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MovingCompany",
+        "name": "Sube y Baja SRL",
+        "url": "https://www.subeybaja-bruxelles.be/",
+        "telephone": "+32475328985",
+        "email": "info@subeybaja.be",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rue des Trois Rois 99",
+          "addressLocality": "Drogenbos",
+          "postalCode": "1620",
+          "addressCountry": "BE"
+        },
+        "areaServed": "Bruxelles",
+        "priceRange": "€€"
+      }
+    </script>
   </head>
 
   <body>
     <a class="skip-link" href="#contenu">Aller au contenu</a>
 
-    <!-- HEADER -->
     <header class="site-header" id="top">
       <div class="container header__inner">
-        <!-- FIX: brand bien fermé -->
         <a class="brand" href="#top" aria-label="Retour en haut">
           <img
             class="brand__logo"
@@ -65,6 +94,7 @@
         <nav class="nav" aria-label="Navigation principale">
           <ul class="nav__list">
             <li><a href="#services">Services</a></li>
+            <li><a href="#pourquoi-nous">Pourquoi nous</a></li>
             <li><a href="#avis">Avis Google</a></li>
             <li><a href="#devis">Devis</a></li>
             <li><a href="#galerie">Interventions</a></li>
@@ -77,57 +107,107 @@
     </header>
 
     <main id="contenu">
-      <!-- HERO (paysage, texte dedans) -->
+      <!-- HERO -->
       <section class="hero hero--landscape" aria-label="Présentation">
         <div class="hero__bg" aria-hidden="true"></div>
 
         <div class="container hero__inner">
           <div class="hero__panel">
-            <p class="kicker">Déménagement Bruxelles & Belgique</p>
-            <h1>Déménagez sereinement, on s’occupe du reste.</h1>
+            <p class="kicker">Entreprise de déménagement à Bruxelles</p>
+
+            <h1>Déménagement à Bruxelles rapide, soigné et professionnel</h1>
 
             <p class="lead">
-              Déménagement national & international, lift services, transport
-              express et service d’emballage. Une équipe pro, une organisation
-              claire, un devis rapide.
+              Sube y Baja SRL vous accompagne pour votre déménagement à
+              Bruxelles, en Belgique et à l’international. Transport de meubles,
+              lift service, emballage et devis gratuit avec une équipe sérieuse
+              et efficace.
             </p>
 
             <ul class="pill-list" role="list">
+              <li><i class="fa-solid fa-check"></i> Déménagement Bruxelles</li>
               <li>
                 <i class="fa-solid fa-check"></i> National & international
               </li>
               <li><i class="fa-solid fa-check"></i> Lift service</li>
-              <li><i class="fa-solid fa-check"></i> Transport express</li>
-              <li><i class="fa-solid fa-check"></i> Emballage</li>
+              <li><i class="fa-solid fa-check"></i> Emballage professionnel</li>
             </ul>
 
             <div class="hero__cta">
               <a class="btn btn--primary" href="#devis">
                 <i class="fa-solid fa-file-signature"></i> Demander un devis
+                gratuit
               </a>
               <a
                 class="btn btn--outline"
                 href="tel:+32475328985"
                 aria-label="Appeler +32 475 32 89 85"
               >
-                <i class="fa-solid fa-phone"></i> +32 475 32 89 85
+                <i class="fa-solid fa-phone"></i> Appeler maintenant
               </a>
             </div>
 
             <p class="tiny">
-              Intervention rapide, matériel adapté, protections et sécurité.
+              Réponse rapide • Intervention sur Bruxelles • Service fiable et
+              soigné
             </p>
           </div>
         </div>
       </section>
 
-      <!-- SERVICES (zig-zag) -->
+      <!-- INTRO SEO -->
+      <section class="section reveal" id="societe">
+        <div class="container">
+          <header class="section__head reveal">
+            <h2>Votre déménageur à Bruxelles</h2>
+            <span class="section__line" aria-hidden="true"></span>
+            <p>
+              Une équipe fiable pour votre déménagement à Bruxelles et en
+              Belgique.
+            </p>
+          </header>
+
+          <div class="grid grid--2">
+            <article class="card reveal">
+              <h3>Entreprise de déménagement Bruxelles</h3>
+              <p>
+                Vous cherchez un déménageur à Bruxelles fiable, rapide et
+                professionnel ? Sube y Baja SRL vous accompagne pour le
+                transport de meubles, le déménagement complet, l’emballage et
+                les interventions avec lift service.
+              </p>
+              <p>
+                Nous mettons un point d’honneur à offrir un service soigné,
+                ponctuel et adapté à chaque client, que ce soit pour un petit
+                déménagement ou un projet plus important.
+              </p>
+            </article>
+
+            <article class="card card--soft reveal">
+              <h3>Coordonnées</h3>
+              <p>
+                Rue des Trois Rois 99<br />
+                1620 Drogenbos, Belgique<br />
+                TVA : BE843020169
+              </p>
+              <p>
+                Tel :
+                <a href="tel:+32475328985">+32 475 32 89 85</a><br />
+                Email :
+                <a href="mailto:info@subeybaja.be">info@subeybaja.be</a>
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
       <section class="section reveal" id="services">
         <div class="container">
           <header class="section__head reveal">
-            <h2>Nos services</h2>
+            <h2>Nos services de déménagement à Bruxelles</h2>
             <span class="section__line" aria-hidden="true"></span>
-            <p>Une solution complète pour votre déménagement.</p>
+            <p>Une solution complète pour particuliers et professionnels.</p>
           </header>
 
           <div class="services">
@@ -135,15 +215,16 @@
               <div class="service__img">
                 <img
                   src="assets/deg_national.jpg"
-                  alt="Déménagement national"
+                  alt="Déménagement national à Bruxelles"
                   loading="lazy"
                 />
               </div>
               <div class="service__body">
                 <h3>Déménagement national</h3>
                 <p>
-                  Chargement, transport et livraison en toute sécurité, adaptés
-                  à votre situation.
+                  Nous assurons votre déménagement à Bruxelles et partout en
+                  Belgique avec un transport soigné, une équipe organisée et un
+                  service adapté à votre situation.
                 </p>
                 <a class="link" href="#devis">
                   Devis gratuit <i class="fa-solid fa-arrow-right"></i>
@@ -162,8 +243,9 @@
               <div class="service__body">
                 <h3>Déménagement international</h3>
                 <p>
-                  Organisation complète pour un départ à l’étranger avec un
-                  suivi clair.
+                  Nous organisons votre déménagement international avec un suivi
+                  clair, une bonne planification et un transport fiable de vos
+                  biens.
                 </p>
                 <a class="link" href="#contact">
                   Parler à un conseiller <i class="fa-solid fa-arrow-right"></i>
@@ -173,13 +255,18 @@
 
             <article class="service reveal">
               <div class="service__img">
-                <img src="assets/lift.jpg" alt="Lift service" loading="lazy" />
+                <img
+                  src="assets/lift.jpg"
+                  alt="Lift service à Bruxelles"
+                  loading="lazy"
+                />
               </div>
               <div class="service__body">
                 <h3>Lift Services</h3>
                 <p>
-                  Monte-charges et solutions de levage selon la configuration de
-                  votre logement.
+                  Pour les accès difficiles, nous proposons un lift service à
+                  Bruxelles afin de déménager plus vite, plus proprement et en
+                  toute sécurité.
                 </p>
                 <a class="link" href="#devis">
                   Demander un devis lift <i class="fa-solid fa-arrow-right"></i>
@@ -191,15 +278,15 @@
               <div class="service__img">
                 <img
                   src="assets/transport.jpg"
-                  alt="Transport express"
+                  alt="Transport express à Bruxelles"
                   loading="lazy"
                 />
               </div>
               <div class="service__body">
                 <h3>Transport Express</h3>
                 <p>
-                  Livraison rapide et fiable: colis, petite marchandise,
-                  demandes urgentes.
+                  Livraison rapide et fiable de colis, meubles et marchandises
+                  urgentes à Bruxelles et en Belgique.
                 </p>
                 <a class="link" href="tel:+32475328985">
                   Appeler maintenant <i class="fa-solid fa-arrow-right"></i>
@@ -211,20 +298,68 @@
               <div class="service__img">
                 <img
                   src="assets/embalage_sb.png"
-                  alt="Service d'emballage"
+                  alt="Service d’emballage professionnel"
                   loading="lazy"
                 />
               </div>
               <div class="service__body">
                 <h3>Service d’emballage</h3>
                 <p>
-                  Emballage pro pour protéger vos biens (fragile, vaisselle,
-                  mobilier, cartons adaptés).
+                  Emballage professionnel pour protéger vos biens fragiles,
+                  vaisselle, mobilier et cartons avant le transport.
                 </p>
                 <a class="link" href="#devis">
                   Ajouter au devis <i class="fa-solid fa-arrow-right"></i>
                 </a>
               </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- POURQUOI NOUS -->
+      <section class="section section--alt reveal" id="pourquoi-nous">
+        <div class="container">
+          <header class="section__head reveal">
+            <h2>Pourquoi choisir Sube y Baja ?</h2>
+            <span class="section__line" aria-hidden="true"></span>
+            <p>
+              Un service de déménagement à Bruxelles pensé pour vous simplifier
+              la vie.
+            </p>
+          </header>
+
+          <div class="grid grid--2">
+            <article class="card reveal">
+              <h3>Rapidité et sérieux</h3>
+              <p>
+                Nous intervenons rapidement avec une équipe professionnelle,
+                ponctuelle et organisée.
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <h3>Protection de vos biens</h3>
+              <p>
+                Nous prenons soin de vos meubles, cartons et objets fragiles
+                pendant tout le déménagement.
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <h3>Devis gratuit</h3>
+              <p>
+                Obtenez rapidement une estimation claire selon votre volume,
+                votre adresse et vos besoins spécifiques.
+              </p>
+            </article>
+
+            <article class="card reveal">
+              <h3>Bruxelles et Belgique</h3>
+              <p>
+                Nous travaillons à Bruxelles, dans toute la Belgique et pour vos
+                déménagements internationaux.
+              </p>
             </article>
           </div>
         </div>
@@ -270,26 +405,25 @@
             <div class="reviews__list reveal" aria-label="Avis clients">
               <article class="review">
                 <header class="review__top">
-                  <strong> LANCEY COLLIN</strong>
+                  <strong>LANCEY COLLIN</strong>
                   <span class="stars small" aria-hidden="true">★★★★★</span>
                 </header>
                 <p>
                   I had a great experience with this moving service. They
                   arrived exactly on time and handled everything quickly and
-                  professionally.I would definitely recommend them to anyone
-                  looking for a reliable and efficient moving company!
+                  professionally.
                 </p>
               </article>
 
               <article class="review">
                 <header class="review__top">
-                  <strong>EMMA MIRISOLA </strong>
+                  <strong>EMMA MIRISOLA</strong>
                   <span class="stars small" aria-hidden="true">★★★★★</span>
                 </header>
                 <p>
-                  Excellent déménagement Équipe ponctuelle, professionnelle et
+                  Excellent déménagement. Équipe ponctuelle, professionnelle et
                   soigneuse. Aucun dommage, déménagement rapide et tarifs
-                  clairs. Je recommande vivement sube y baja
+                  clairs.
                 </p>
               </article>
 
@@ -300,10 +434,7 @@
                 </header>
                 <p>
                   Uitstekende verhuisservice! Het team was professioneel, stipt
-                  en zeer zorgvuldig met mijn meubels. De
-                  prijs-kwaliteitverhouding is echt top. De verhuizers zorgden
-                  voor het inpakken, transport en uitladen op een snelle en
-                  efficiënte manier.
+                  en zeer zorgvuldig met mijn meubels.
                 </p>
               </article>
 
@@ -312,7 +443,7 @@
                   <strong>DARIA SOLDANO</strong>
                   <span class="stars small" aria-hidden="true">★★★★★</span>
                 </header>
-                <p>E stato proprio perfetto!! Grazie mille a lei</p>
+                <p>E stato proprio perfetto!! Grazie mille a lei.</p>
               </article>
             </div>
           </div>
@@ -323,9 +454,12 @@
       <section class="section reveal" id="devis">
         <div class="container">
           <header class="section__head reveal">
-            <h2>Devis en ligne</h2>
+            <h2>Demandez votre devis gratuit</h2>
             <span class="section__line" aria-hidden="true"></span>
-            <p>Remplissez ce formulaire, on revient vers vous rapidement.</p>
+            <p>
+              Remplissez ce formulaire et recevez une réponse rapide pour votre
+              déménagement à Bruxelles.
+            </p>
           </header>
 
           <div class="devis-wrap reveal">
@@ -409,7 +543,7 @@
                     id="message"
                     name="message"
                     rows="5"
-                    placeholder="Détails: étage, ascenseur, lift, accès, emballage, etc."
+                    placeholder="Détails : étage, ascenseur, lift, accès, emballage, etc."
                   ></textarea>
                 </div>
 
@@ -431,16 +565,42 @@
           <header class="section__head reveal">
             <h2>Nos interventions</h2>
             <span class="section__line" aria-hidden="true"></span>
-            <p>Quelques images sur le terrain.</p>
+            <p>
+              Quelques images de nos déménagements à Bruxelles et en Belgique.
+            </p>
           </header>
 
           <div class="gallery gallery--big reveal">
-            <img src="assets/int1.jpg" alt="Intervention 1" loading="lazy" />
-            <img src="assets/int2.jpg" alt="Intervention 2" loading="lazy" />
-            <img src="assets/int3.jpg" alt="Intervention 3" loading="lazy" />
-            <img src="assets/int4.jpg" alt="Intervention 4" loading="lazy" />
-            <img src="assets/int5.jpg" alt="Intervention 5" loading="lazy" />
-            <img src="assets/int6.jpg" alt="Intervention 6" loading="lazy" />
+            <img
+              src="assets/int1.jpg"
+              alt="Déménagement à Bruxelles 1"
+              loading="lazy"
+            />
+            <img
+              src="assets/int2.jpg"
+              alt="Déménagement à Bruxelles 2"
+              loading="lazy"
+            />
+            <img
+              src="assets/int3.jpg"
+              alt="Déménagement à Bruxelles 3"
+              loading="lazy"
+            />
+            <img
+              src="assets/int4.jpg"
+              alt="Déménagement à Bruxelles 4"
+              loading="lazy"
+            />
+            <img
+              src="assets/int5.jpg"
+              alt="Déménagement à Bruxelles 5"
+              loading="lazy"
+            />
+            <img
+              src="assets/int6.jpg"
+              alt="Déménagement à Bruxelles 6"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
@@ -451,7 +611,7 @@
           <header class="section__head reveal">
             <h2>Contact</h2>
             <span class="section__line" aria-hidden="true"></span>
-            <p>Une question, un devis, une urgence: contactez-nous.</p>
+            <p>Une question, un devis ou une urgence ? Contactez-nous.</p>
           </header>
 
           <div class="contact-box reveal">
@@ -459,11 +619,13 @@
               <h3>Sube y Baja SRL</h3>
               <p class="muted">
                 Rue des Trois Rois 99, 1620 Drogenbos (Belgique)<br />
-                TVA: BE843020169
+                TVA : BE843020169
               </p>
               <p class="muted">
-                Tel: <a href="tel:+32475328985">+32 475 32 89 85</a><br />
-                Email: <a href="mailto:info@subeybaja.be">info@subeybaja.be</a>
+                Tel :
+                <a href="tel:+32475328985">+32 475 32 89 85</a><br />
+                Email :
+                <a href="mailto:info@subeybaja.be">info@subeybaja.be</a>
               </p>
             </div>
 
@@ -480,14 +642,13 @@
       </section>
     </main>
 
-    <!-- FOOTER FIX: structure propre -->
     <footer class="site-footer">
       <div class="container footer__inner">
         <div>
           <h4>Sube y Baja SRL</h4>
           <p class="muted">
-            Déménagement Bruxelles & Belgique. National · International · Lift ·
-            Express · Emballage.
+            Entreprise de déménagement à Bruxelles. National · International ·
+            Lift · Express · Emballage.
           </p>
         </div>
 
@@ -495,6 +656,7 @@
           <h4>Liens</h4>
           <ul class="footer__links">
             <li><a href="#services">Services</a></li>
+            <li><a href="#pourquoi-nous">Pourquoi nous</a></li>
             <li><a href="#avis">Avis Google</a></li>
             <li><a href="#devis">Devis en ligne</a></li>
             <li><a href="#galerie">Interventions</a></li>
@@ -512,8 +674,8 @@
           <p class="muted">
             Rue des Trois Rois 99<br />
             1620 Drogenbos, Belgique<br />
-            Tel: <a href="tel:+32475328985">+32 475 32 89 85</a><br />
-            Email: <a href="mailto:info@subeybaja.be">info@subeybaja.be</a>
+            Tel : <a href="tel:+32475328985">+32 475 32 89 85</a><br />
+            Email : <a href="mailto:info@subeybaja.be">info@subeybaja.be</a>
           </p>
         </div>
       </div>
@@ -558,21 +720,30 @@
       </div>
     </footer>
 
+    <div id="cookie-banner" class="cookie-banner" hidden>
+      <p>
+        Ce site utilise des cookies strictement nécessaires à son
+        fonctionnement. Si des cookies de mesure d’audience ou de services tiers
+        sont ajoutés, votre consentement vous sera demandé.
+      </p>
+      <button id="cookie-close" class="btn btn--outline" type="button">
+        Fermer
+      </button>
+    </div>
+
     <script>
-      // année auto
       document.getElementById("year").textContent = new Date().getFullYear();
 
-      // menu mobile
       const header = document.querySelector(".site-header");
       const btn = document.querySelector(".nav-toggle");
       const nav = document.querySelector(".nav");
+
       btn.addEventListener("click", () => {
         const isOpen = header.classList.toggle("nav-open");
         btn.setAttribute("aria-expanded", String(isOpen));
         nav.classList.toggle("nav--open", isOpen);
       });
 
-      // Reveal au scroll
       const els = document.querySelectorAll(".reveal");
       const io = new IntersectionObserver(
         (entries) => {
@@ -585,17 +756,6 @@
 
       els.forEach((el) => io.observe(el));
     </script>
-
-    <div id="cookie-banner" class="cookie-banner" hidden>
-      <p>
-        Ce site utilise des cookies strictement nécessaires à son
-        fonctionnement. Si des cookies de mesure d’audience ou de services tiers
-        sont ajoutés, votre consentement vous sera demandé.
-      </p>
-      <button id="cookie-close" class="btn btn--outline" type="button">
-        Fermer
-      </button>
-    </div>
 
     <script>
       const cookieBanner = document.getElementById("cookie-banner");
@@ -615,7 +775,6 @@
     </script>
 
     <script>
-      // Initialisation EmailJS
       emailjs.init("jItjSvJQK07ON26IW");
 
       const devisForm = document.getElementById("devis-form");
@@ -654,7 +813,4 @@
       }
     </script>
   </body>
-</html>    
-
-
-  
+</html>
